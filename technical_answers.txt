@@ -1,0 +1,30 @@
+1- Se utilizan normalmente seis etapas para el proceso:
+	-Identificar fuentes de datos.
+	-Datos moderna
+	-Tranformacion de datos
+	-Carga de datos
+	-Automatizacion y programación
+	-Monitoreo.
+Ejemplo: La carga de datos de un archivo plano, .CSV el cual se depositara en un gestos de datos, siendo necesarios cargar 2 archivos
+planos que sera utilizados como tabla, para poder utilizar los datos necesarios y crear una nueva tabla, estando conectadas de la tabla
+inicial, con esto sera necesaria la transformación de los datos donde veremos la información que venga completa o llega tener información
+algun duplicado, algun dato erroneo, teniendo que limpiar los datos, para poder realizar una carga de datos ya sea en un repositorio,
+algun sistema o un nuevo archivo plano, esto siendo para su visualización de este modo se puede realizar una carga automatizada en el
+sistema para que se carge periodicamente para cada que lo necesite el cliente y con esto sera necesario  el monitoreo y evaluación del
+resultado el cual ayuda a poder tener controlado los resultados y realizar actualizaciones.
+
+2- OLAP (OnLine Analytical Processing) es la sigla en inglés de procesamiento analítico en línea.
+OLTP (OnLine Transaction Processing) es la sigla en inglés de Procesamiento de Transacciones En Línea.
+Como se mencionan en las siglas su diferencia mas notoria es el tipo de procesamiento que utiliza cada una, pero pudiendo entrar en mas detalle es que OLAP es un sistama de respuesta de consulta de bases de datos y OLTP es un sistema de modificación de baces de datos online.
+
+3- Cuando el Data Pipeline, se encuentra de manera productiva tiene una base de datos, donde la conexión es directa desde
+la fuente de datos, este genera una carga de datos consecutiva la cual te dispone los datos de manera automatica, llevando una configuración directa con el sistema fuente, en donde se definira un destino de donde se depositara toda los datos, usualmente creando un Data Werehouse en donde estara todos los datos, casi siempre con lleva la implementación del ETL ya que los datos vienen de manera cruda y que tienen mucha basura o datos repetidos, usualmente se tienen que implementar el ETL para generarlos de manera estructurada.
+
+4- Generalmente se llegan a implementar un visualizador para el monitoreo, donde se evaluaran las extraciones, en donde se mantendra un registro y evaluaran los resultados, para poder explorarlo, en mi experiencia aunque se necesita una herramienta donde se pueda hacer todo el procesamiento de datos, adicional en donde se aplicara el monitoreo en este caso se pretende ver, si existe un error en la extraccion o si, no hacer lo correspondiente. Al finalizar relizar una comprobación para ver resultados y llevar un registro para tener un tiempo de espera estimado.
+
+4- Es como un contrato el cual da un acuerdo mutuo entre el servicio y el cliente que describe los datos que se intercambiaran, teniendo estructura de datos que seran incluidos con el uso de los mensajes que van y vienen del servicio al cliente y viceversa. Para utilizarlo, el cliente y el servicio no tienen que compartir los mismos tipos, solo los mismos contratos de datos. Un contrato de datos define con precisión, para cada parámetro o tipo de valor devuelto, qué datos se serializan para su intercambio.
+
+5- En lo personal yo utilizaria una herramienta de monitoreo conectada o implementada directamente en la nube. No he implementado mucho el trabajo en GPC o AWS, pero investigando, cada una tiene un detector de anomalias que se puede implementar directamente, en el cual se  puede gestionar en tiempo real, busqueda, analisis y alertas. SIendo para AWS - Cost Anomaly Detection y GCP - Cloud Logging.
+
+
+6- Las pruebas unitarias, son las que un desarrollador implemnta ejecuciones, evaluando el cumplimiento, funcionamiento en un fragmento del codigo, para poder proseguir a las pruebas integrales. Sobre la cobertura del codigo es quien mide la proporcion del codigo, utilizado por las pruebas automatizadas.

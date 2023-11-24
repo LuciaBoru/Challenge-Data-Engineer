@@ -1,0 +1,15 @@
+{
+	"ClieteID": 550123,
+	"TiendaID": 200,
+	"HoraCreacion": '2023-04-23T10:10:02Z',
+	"NombreArt": [
+		{"ArticuloID": 589757, "Cantidad": 1, "PrecioArt": 2},
+		{"ArticuloID": 823166, "Cantidad": 7, "PrecioArt": 38},
+		{"ArticuloID": 750270, "Cantidad": 9, "PrecioArt": 60}
+		{"ArticuloID": 814086, "Cantidad": 6, "PrecioArt": 22},
+		{"ArticuloID": 769761, "Cantidad": 2, "PrecioArt": 8},
+		{"ArticuloID": 190856, "Cantidad": 10, "PrecioArt": 92}
+		{"ArticuloID": 036373, "Cantidad": 8, "PrecioArt": 41},
+		{"ArticuloID": 246239, "Cantidad": 3, "PrecioArt": 19}
+	]
+}
